@@ -1,0 +1,231 @@
+.navbar-default {
+	background-color:transparent !important;
+    border-color:transparent !important;	
+}
+.navbar{
+    border:none !important;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background-color:transparent !important;
+}
+.dropdown-menu>li>a{
+    color:#337ab7 !important;
+    font-size: 16px;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    border-color: #337ab7;
+    background-color: transparent !important;
+}
+.nav-link{
+    color:#fff !important;
+}
+.nav-blue{
+    color:#337ab7 !important;
+}
+.tab{
+    border-bottom:2px solid #337ab7;
+    background: transparent !important; 
+}
+.active{
+    background: transparent !important;
+}
+.centered-hr {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 15px;
+}
+.centered-hr:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 1px);
+    top: -webkit-calc(50% - 1px);
+    right: 0;
+    height: 1px;
+    border-top: 1px solid #d4d4d4;
+    z-index: -1;
+}
+.mainApp {
+    background-image: url('//csvcus.homeaway.com/rsrcs/stab-cms-resources/0.10.30/images/homepage/jumbotron/ptaHpNextHeroImage/large.jpg');
+    background-size:cover;
+    background-position-x: 100%;
+    background-position-y: center;
+    color:#fff;
+}
+.btn-profile{
+    position: relative;
+    bottom: -50px;
+    left: -70px;
+    min-height:40px;
+    border-radius:50%;
+}
+#personyzeContent {
+    height: 295px;
+    overflow: hidden;
+    display: block;
+}
+input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: #aaa;
+    margin-right: 0.5em;
+  }
+  input[type="date"]:focus:before,
+  input[type="date"]:valid:before {
+    content: "" !important;
+  }
+  :-ms-input-placeholder {
+    line-height:600px;
+}
+.grid-display{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap:40px;
+    grid-auto-flow:column;
+}
+.input-group-addon{
+    padding: 4px 4px !important;
+}
+
+
+/*Toggle switch*/
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.filter{
+    border-top: 1px solid grey;
+    padding:20px;
+    border-bottom: 1px solid grey;
+    margin-top:80px;
+}
+.filter span{
+    padding-left:20px;
+}
+.fa-chevron-down{
+    color:#2196F3;
+}
+.fa-circle{
+    color:lightgrey;
+    padding:1px;
+}
+.item-search a{
+    cursor: pointer;
+}
+.fa-stopwatch{
+    color:#2196F3;
+}
+.fa-check{
+    color:#2196F3;
+}
+.fa-phone{
+    color:lightgrey;
+}
+.fa-calendar-alt{
+    color:grey;
+    bottom:-40px;
+}
+.card{
+    background-color: white;
+    transition: transform .2s;
+    width: 800px;
+    height: 200px;
+}
+.card:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+}
+.card-dash{
+    background-color: white;
+    transition: transform .2s;
+    width: 200px;
+    height: 420px;
+}
+.card-dash:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05); 
+}
+.page-footer{
+   position: relative;
+   bottom:-250px;
+   width:100%;
+   height:60px;   /* Height of the footer */
+}
+.datepicker{
+    height:46px;
+    width:130px;
+    border-bottom-right-radius:8px;
+    border-top-right-radius:8px;
+    color:#555;
+}
+.react-datepicker{
+    font-size: 0.8em !important;
+}
+.datepicker1{
+    height:46px !important;
+    border:none;
+    border-radius:8px;
+    color:#555;
+}
+.datepicker2{
+    height:46px !important;
+    border-radius:8px;
+    color:#555;
+}
